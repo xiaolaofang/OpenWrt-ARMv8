@@ -41,10 +41,9 @@ git clone -b master --single-branch --depth=1 https://github.com/Leo-Jo-My/luci-
 # rm -rf package/helloworld/hysteria
 # rm -rf package/helloworld/v2ray-core
 # rm -rf package/helloworld/v2ray-plugin
-# git clone -b master --single-branch --depth=1 https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
-# git clone -b master --single-branch --depth=1 https://github.com/kenzok8/small.git package/small
-git clone -b main --single-branch --depth=1 https://github.com/kenzok8/small-package.git package/small-package
-rm -rf feeds/smpackage/{base-files,dnsmasq,firewall*,fullconenat,libnftnl,nftables,ppp,opkg,ucl,upx,vsftpd-alt,miniupnpd-iptables,wireless-regdb}
+git clone -b master --single-branch --depth=1 https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
+git clone -b master --single-branch --depth=1 https://github.com/kenzok8/small.git package/small
+
 
 #git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 #git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
